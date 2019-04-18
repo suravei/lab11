@@ -69,7 +69,6 @@ void insert_test(int array[], int size)
       if((a - floor(a)) == 0)
       {
         printf("\nDigit to add to set: %.0lf", dig);
-        printf("\nArray %d", array[i]);
         printf("\nNumber found between index: %d, %d", i, i+1);
         printf("\nAverage with new digit: %.0lf / %d = %.1lf", newt, size + 1, a);
         break;
